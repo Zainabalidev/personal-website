@@ -22,6 +22,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  linters:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Markdown Lint
+        uses: DavidAnson/markdownlint-cli2-action@v23
+        with:
+         globs: '**/*.md'  
+      - name: YAML lint
+        uses: ibiqlik/action-yamllint@v3    
   # Build job
   build:
     runs-on: ubuntu-latest
