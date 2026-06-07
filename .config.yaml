@@ -1,0 +1,12 @@
+title: "My Personal Website"
+description : "Welcome to my website and blog."
+author: "Bob the Builder"
+
+url: "https://zainabalidev.github.io/
+baseurl: "/personal-website"
+
+theme: jekyll-theme-hacker
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
