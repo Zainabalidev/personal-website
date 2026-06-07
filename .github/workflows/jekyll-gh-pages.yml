@@ -22,6 +22,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+ linters:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,7 +36,6 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    needs: linters
     steps:
       - name: Checkout
         uses: actions/checkout@v4
