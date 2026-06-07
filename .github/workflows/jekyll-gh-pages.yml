@@ -22,7 +22,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  linters:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
