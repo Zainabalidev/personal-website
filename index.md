@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+---
+
+# Welcome to my website and blog!
+This content will now be wrapped in the dark hacker theme.
+
 ## Hello world
 
 This is my first webpage.
