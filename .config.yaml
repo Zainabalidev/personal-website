@@ -1,14 +1,15 @@
+---
 title: "My Personal Website"
 description: "Welcome to my website and blog."
 author: "Bob the Builder"
 
-url: "https://zainabalidev.github.io"
+url: "https://tamkeen-cloud-engineering.github.io/"
 baseurl: "/personal-website"
 
-
-remote_theme: minima
+theme: []
+remote_theme: pages-themes/cayman@v0.2.0
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
